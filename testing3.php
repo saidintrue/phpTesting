@@ -14,7 +14,7 @@ setcookie($cookieName, $cookieValue, time() + (86400 * 30), "/"); //86400 = 1 da
 
 <html>
 	<head>
-	<title>PHP Tesitng A New File</title>
+	<title>PHP Testing A New File</title>
 	</head>
 
 <body>
