@@ -8,7 +8,7 @@ session_start();
 //setcookie must be used before the html tag
 //To delete a cookie, use the setcookie() function with an expiration date in the past i.e. -3600
 $cookieName = "user";
-$cookieValue = "Jeff Doe";
+$cookieValue = "Bill Doe";
 setcookie($cookieName, $cookieValue, time() + (86400 * 30), "/"); //86400 = 1 day
 ?>
 
