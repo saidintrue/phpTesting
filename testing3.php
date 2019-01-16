@@ -8,13 +8,13 @@ session_start();
 //setcookie must be used before the html tag
 //To delete a cookie, use the setcookie() function with an expiration date in the past i.e. -3600
 $cookieName = "user";
-$cookieValue = "John Doe";
+$cookieValue = "Jeff Doe";
 setcookie($cookieName, $cookieValue, time() + (86400 * 30), "/"); //86400 = 1 day
 ?>
 
 <html>
 	<head>
-	<title>PHP Tesitng A New File</title>
+	<title>PHP Testing A New File</title>
 	</head>
 
 <body>
